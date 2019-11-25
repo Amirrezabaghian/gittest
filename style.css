@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'vazir1';
+    src: url(font/vazir.ttf) format(ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'vazir1';
+    src: url(font/vazir.eot) format(eot);
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'vazir1';
+    src: url(font/vazir.woff) format(woff);
+    font-weight: normal;
+}
+
+body{
+    background-color: #4C4C4C;
+    font-family: vazir1;
+    font-weight: bolder;
+
+}
+.col-md-1{
+    width:33.333%;
+}
+.wrapper{
+    height: 700px;
+    width: 100%;
+    background-color:#EAEAEA;
+    border-radius: 21px;
+    margin:  0 auto;
+    overflow: hidden;
+}
+header{
+    height: 60px;
+    width: 100%;
+}
+main{
+    height: 555px;
+    width: 100%;
+}
+footer{
+    height: 85px;
+    width: 100%;
+    background-color: white;
+    border-radius: 58px 58px 0px 0px;
+    box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.568);
+    position: absolute;
+    bottom: 0;
+}
+
+.map , .setting , .bus{
+    float: left;
+    margin-top: 17px;
+    vertical-align: middle;
+}
+.map{
+    margin-top: 16px;
+}
+img{
+    float: right;
+}
+p{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+.settingtext , .maptext{
+    display: none;
+}
+.imgsetting , .imgmap{
+    margin-right: 45px;
+}
+.imgbus{
+    margin-right: auto;
+    margin-left: auto;
+}
+.click{
+    height: 61px;
+    width: 140px;
+    background-color: #FF0074;
+    opacity: 65%;
+    position: absolute;
+    right: 155px;
+    bottom: 12px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.bus:hover .click{
+    right: 292px;
+}.map:active .click{
+    right: 292px;
+}
+
+
+
+
